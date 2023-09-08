@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: hsl(0, 7%, 59%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100vw;
+    font-family: 'Festive', cursive;
+    font-size: 1.5em;
+    background-color: hsl(234, 56%, 4%);
+    color: #FFFFFF;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.question {
+    width: 75vw;
+    background-color: #eceef9;
+    color: #050A30;
+    display: none;
+    padding: 0.5em;
+    font-size: 1.6em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h6 {
+    font-size: 1.15em !important;
+    margin-bottom: 1.5em;
+}
+
+p {
+    display: none;
+    width: 75vw;
+}
+
+.Q1 {
+    display: flex;
+}
+
+.Q2 {
+    display: none;
+}
+
+.Q3 {
+    display: none;
+}
+
+.Q4 {
+    display: none;
+}
+
+.Q5 {
+    display: none;
+}
+
+footer button {
+    color:#FFFFFF;
+    background-color:#050A30;
+    font-size: 1.5em;
+    border-style: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin: 0.1em;
+    margin-top: 1.3em;
+    padding: 0.3em 0.7em 0.3em 0.7em;
+}
+
+footer button:hover {
+    background-color: #FFFFFF;
+    color:#050A30;
+    border-color:#050A30;
+    border-style: solid;
+}
+
+.stats {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#050A30;
+    background-color:#e3e3e3;
+    font-size: 2em;
+    border-radius: 0.5em;
+}
+
+footer .next {
+    display: none;
+}
